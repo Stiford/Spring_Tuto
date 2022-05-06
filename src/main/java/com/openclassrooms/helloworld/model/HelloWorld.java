@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HelloWorld {
 	
-	private String value = "Hello World !";
+	private String value = "Hello World!";
 	
 	public void setValue(String value) {
 		this.value = value;

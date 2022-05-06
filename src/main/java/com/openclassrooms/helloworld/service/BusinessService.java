@@ -7,7 +7,7 @@ import com.openclassrooms.helloworld.model.HelloWorld;
 @Component
 public class BusinessService {
 
-	public Object getHelloWorld() {
+	public HelloWorld getHelloWorld() {
 	 return	new HelloWorld();
 	}
 }
